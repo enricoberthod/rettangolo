@@ -24,6 +24,11 @@ test('array non passato', () => {
 	expect(getArea()).toEqual(-1);
 });
 
+test('più di un parametro', () => {
+	v = [2,3]
+	expect(getArea(v,2)).toEqual(-1);
+});
+
 test('v array con meno di 2 elementi', () => {
 	v = [2]
 	expect(getArea(v)).toEqual(-1);
@@ -53,3 +58,14 @@ test('v con elemento negativo', () => {
 	v = [2,-3]
 	expect(getArea(v)).toEqual(-1);
 });
+
+test('v con elemento null', () => {
+	v = [2,null]
+	expect(getArea(v)).toEqual(-1);
+});
+
+test('v con elemento undefined', () => {
+	v = [2,]
+	expect(getArea(v)).toEqual(-1);
+});
+
