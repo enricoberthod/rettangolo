@@ -1,0 +1,19 @@
+{
+  "name": "rettangolo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "area.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricoberthod/rettangolo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enricoberthod/rettangolo/issues"
+  },
+  "homepage": "https://github.com/enricoberthod/rettangolo#readme"
+}
