@@ -4,7 +4,11 @@
   "description": "",
   "main": "area.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/enricoberthod/rettangolo/issues"
   },
-  "homepage": "https://github.com/enricoberthod/rettangolo#readme"
+  "homepage": "https://github.com/enricoberthod/rettangolo#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
